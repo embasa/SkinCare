@@ -1,0 +1,8 @@
+[10-Jan-2015 03:50:31 UTC] PHP Notice:  Undefined index: ac in /home/cchen408/public_html/skin/login.php on line 6
+[10-Jan-2015 03:50:31 UTC] PHP Notice:  Undefined index: logged in /home/cchen408/public_html/skin/login.php on line 13
+[10-Jan-2015 03:51:44 UTC] PHP Notice:  Undefined index: logged in /home/cchen408/public_html/skin/login.php on line 13
+[10-Jan-2015 04:14:08 UTC] PHP Notice:  Undefined index: poopy in /home/cchen408/public_html/skin/login.php on line 7
+[10-Jan-2015 04:19:35 UTC] PHP Notice:  Undefined index:  in /home/cchen408/public_html/skin/login.php on line 7
+[10-Jan-2015 04:19:35 UTC] PHP Notice:  Undefined index: logged in /home/cchen408/public_html/skin/login.php on line 13
+[10-Jan-2015 04:19:43 UTC] PHP Notice:  Undefined index: nik in /home/cchen408/public_html/skin/login.php on line 7
+[10-Jan-2015 04:19:43 UTC] PHP Notice:  Undefined index: logged in /home/cchen408/public_html/skin/login.php on line 13

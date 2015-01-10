@@ -1,0 +1,3 @@
+<?php
+echo SQLite3::version();
+?>
