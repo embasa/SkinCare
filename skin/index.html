@@ -36,6 +36,25 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">Home</a>
+          <?php
+		  		  session_start();
+		  		  include("passwords.php");
+		  		  if (isset($_POST["ac"]) && $_POST["ac"]=="log") { /// do after login form is submitted
+		  		       if ($USERS[$_POST["username"]]==$_POST["password"]) { /// check if submitted username and password exist in $USERS array
+		  		            $_SESSION["logged"]=$_POST["username"];
+		  		       } else {
+		  		            echo 'Incorrect username/password. Please, try again.';
+		  		       };
+		  		  };
+		  		  if (isset($_POST["ac"]) && array_key_exists($_SESSION["logged"],$USERS)) { //// check if user is logged or not
+		  		       echo "You are logged in."; //// if user is logged show a message
+		  		  } else { //// if not logged show login form
+		  		       echo '<form action="login.php" method="post"><input type="hidden" name="ac" value="log">
+		  		            Username: <input type="text" name="username" align="right" />
+		  		            Password TEST : <input type="password" name="password" />
+		  		       		<input type="submit" value="Login" align="right"/>
+		  		            </form>;
+        <align="right">
         </div>
       </div>
     </div>
@@ -43,42 +62,39 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <center><h1>Skin City</h1><center>
+        <center><img height=50% width=50% src="images/skin.png" /><center>
+        <p>
+        Find the right product for your skin.
+		</p>
+        <p>
+		The current market is filled with products that have long lists of obscure ingredients.
+		</p>
+        <p>
+        Here is our secret:
+		</p>
+        <ol>
+        	<li>Start with the most basic face wash depending on your skin type.</li>
+			<li>Add products one at a time and see what works.</li>
+			<li>90 day commitment towards a lifetime of better skin.</li>
+		</ol>
+        <p>
+		We provide a database where you can easily cross reference products and ingredients.
+		</p>
+		<p>
+        We offer a starter kit that includes a basic face wash, 3 ingredients of your choice, detailed instructions, and a daily planner.
+        </p>
       </div>
     </div>
-
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <center>
-          <h2>Who We Are</h2>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-          <center>
-        </div>
-        <div class="col-md-4">
-          <center>
-          <h2>Not Signed Up Yet?</h2>
-          <p><a class="btn btn-default" href="#" role="button"> Register &raquo;</a></p>
-          <center>
-       </div>
-        <div class="col-md-4">
-          <center>
-          <h2>Returning User?</h2>
-          <p><a class="btn btn-default" href="login.php" role="button"> Login &raquo;</a></p>
-          <center>
-        </div>
-      </div>
 
       <hr>
 
       <footer>
-        <p>&copy; HACK UCSC 2015</p>
+        <p>&copy; Team Skin City 2015</p>
       </footer>
     </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
 
-        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
 

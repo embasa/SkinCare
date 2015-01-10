@@ -2,3 +2,20 @@
 [10-Jan-2015 03:27:03 UTC] PHP Fatal error:  Call to undefined function sqlite_libversion() in /home/cchen408/public_html/skin/php/versions.php on line 2
 [10-Jan-2015 04:11:21 UTC] PHP Fatal error:  Call to undefined function sqlite_libversion() in /home/cchen408/public_html/skin/php/versions.php on line 2
 [10-Jan-2015 04:11:37 UTC] PHP Fatal error:  Call to undefined function sqlite_libversion() in /home/cchen408/public_html/skin/php/versions.php on line 2
+[10-Jan-2015 05:33:39 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/versions.php on line 41
+[10-Jan-2015 05:34:28 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/versions.php on line 41
+[10-Jan-2015 05:36:08 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/versions.php on line 48
+[10-Jan-2015 05:36:10 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/versions.php on line 48
+[10-Jan-2015 05:45:55 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/versions.php on line 48
+[10-Jan-2015 05:45:57 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/versions.php on line 48
+[10-Jan-2015 05:46:12 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/versions.php on line 48
+[10-Jan-2015 05:46:26 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/versions.php on line 48
+[10-Jan-2015 05:46:45 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/versions.php on line 48
+[10-Jan-2015 05:47:14 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/versions.php on line 48
+[10-Jan-2015 05:47:16 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/versions.php on line 48
+[10-Jan-2015 05:48:02 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/versions.php on line 49
+[10-Jan-2015 05:49:33 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/versions.php on line 49
+[10-Jan-2015 05:49:34 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/versions.php on line 49
+[10-Jan-2015 05:50:06 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/versions.php on line 49
+[10-Jan-2015 05:53:49 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/versions.php on line 49
+[10-Jan-2015 05:57:35 UTC] PHP Fatal error:  Call to undefined function makeTable() in /home/cchen408/public_html/skin/php/versions.php on line 37
