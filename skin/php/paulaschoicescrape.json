@@ -1,0 +1,70 @@
+{
+  "name": "paulaschoice",
+  "count": 11,
+  "frequency": "Manual Crawl",
+  "version": 4,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Fri Jan 09 2015 23:22:09 GMT+0000 (UTC)",
+  "thisversionstatus": "success",
+  "thisversionrun": "Fri Jan 09 2015 23:21:42 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "name": "Resist Optimal Results Hydrating Cleanser",
+        "ingredients": "Water, Caprylic/Capric Triglyceride (emollient thickener), Decyl Glucoside (cleansing agent), Glycerin (skin-identical ingredient), PEG-20 Methyl Glucose Sesquistearate (cleansing agent/emulsifier), PPG-20 Methyl Glucose Ether, Methyl Gluceth-20 (skin-conditioning agents),Glyceryl Stearate, Stearyl Alcohol (thickeners), Polyacrylamide (binding agent), Camellia Oleifera (Green Tea) Leaf Extract (antioxidant), Chamomilla Recutita (Matricaria) Flower Extract (soothing agent), Sapindus Mukurossi (Soapberry) Peel Extract (foaming agent), Methyl Glucose Sesquistearate (cleansing agent), C13-14 Isoparaffin (thickener), Laureth-7 (emulsifier), Xanthan Gum (thickener), Disodium EDTA (chelating agent), Citric Acid (pH adjuster), Caprylyl Glycol, Ethylhexylglycerin, Hexylene Glycol, Phenoxyethanol (preservatives).",
+        "url": "http://www.paulaschoice.com/shop/skin-care-categories/cleansers/_/Resist-Optimal-Results-Hydrating-Cleanser/"
+      },
+      {
+        "name": "Resist Perfectly Balanced Cleanser",
+        "ingredients": "Water, Sodium Lauroamphoacetate, Sodium Cocoyl Isethionate (cleansing agents), Stearic Acid (thickener), Glycerin (skin-repairing ingredient), Glycol Distearate (opacifying agent), Helianthus Annuus (Sunflower) Seed Oil (non-fragrant antioxidant plant oil), Sodium Hyaluronate, Ceramide NP, Ceramide AP, Ceramide EOP (skin-repairing ingredients), Phytosphingosine (cell-communicating ingredient), Phospholipids, Sphingolipids (skin-repairing ingredients), Lecithin (cell-communicating ingredient), Arginine (amino acid water-binding agent), Cholesterol (skin-repairing ingredient), Aloe Barbadensis Leaf Extract (water-binding agent), Disodium EDTA (chelating agent), Sodium Chloride (stabilizer), Sodium Hydroxide (pH adjuster), Sodium Lauroyl Lactylate (emulsifier), Cetearyl Alcohol, Acrylates Copolymer, Xanthan Gum, Carbomer (thickeners), Caprylyl Glycol, Hexylene Glycol, Phenoxyethanol (preservatives).",
+        "url": "http://www.paulaschoice.com/shop/skin-care-categories/cleansers/_/Resist-Perfectly-Balanced-Cleanser/"
+      },
+      {
+        "name": "Skin Recovery Softening Cream Cleanser",
+        "ingredients": "Water, Hydrogentated Polydecene, Disodium Cocoamphodiacetate, Glycine Soja (Soybean) Oil, C12-15 Alkyl Benzoate, Polysorbate 80, Cocamidopropyl Betaine, Chamomile Recutita (Matricaria) Flower Extract, Oat Beta Glucan, Mineral Oil, PEG-7 Glyceryl Cocoate, Butylene Glycol, Disodium EDTA, Laureth-4, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Sodium Hydroxide, Hexylene Glycol, Caprylyl Glycol, Chlorphenesin, Ethylhexylglycerin, Phenoxyethanol.",
+        "url": "http://www.paulaschoice.com/shop/skin-care-categories/cleansers/_/Skin-Recovery-Softening-Cream-Cleanser/"
+      },
+      {
+        "name": "Moisture Boost One Step Face Cleanser",
+        "ingredients": "Water, Sodium Laureth Sulfate (gentle cleansing agent), Methyl Gluceth-20 (skin-conditioning agent), Glycol Stearate (moisturizing thickener), Glyceryl Stearate (moisturizing thickener), Chamomilla Recutita (Matricaria) Flower Extract (soothing agent, anti-inflammatory), Aloe Barbadensis Leaf Juice (water-binding agent), Cocamidopropyl Betaine (very mild cleansing/lather agent), Sodium Cocoyl Glutamate, Disodium Cocoyl Glutamate (cleansing agents), Sodium Hyaluronate, Sodium PCA (skin-identical ingredients), Hydroxyethylcellulose (thickener), Caprylyl Glycol, Hexylene Glycol (preservatives), Propylene Glycol (slip agent), Citric Acid (pH balancer), Phytic Acid (chelating agent to soften hard water), Phenoxyethanol (preservative).",
+        "url": "http://www.paulaschoice.com/shop/skin-care-categories/cleansers/_/Moisture-Boost-One-Step-Face-Cleanser/"
+      },
+      {
+        "name": "Skin Balancing Oil-Reducing Cleanser",
+        "ingredients": "Water, Sodium Lauroamphoacetate, Sodium Cocoyl Isethionate (gentle cleansing agents), Stearic Acid (fatty acid thickener), Glycerin (skin-repairing ingredient),\nGlycol Distearate (skin-conditioning/opacifying agent), Helianthus Annuus (Sunflower) Seed Oil (non-fragrant plant oil), Acrylates Copolymer (film-forming agent), Cetearyl Alcohol (thickener), Aloe Barbadensis Leaf Extract (water-binding agent), Sodium Chloride, Sodium Hydroxide (stabilizer and pH-adjusting agents), Xanthan Gum (thickener), Caprylyl Glycol, Hexylene Glycol (preservatives), Disodium EDTA (stabilizer), Phenoxyethanol (preservative).",
+        "url": "http://www.paulaschoice.com/shop/skin-care-categories/cleansers/_/Skin-Balancing-Oil-Reducing-Cleanser/"
+      },
+      {
+        "name": "Hydralight One Step Cleanser",
+        "ingredients": "Water, Glycerin (skin-identical ingredient), Sodium Laureth Sulfate (gentle cleansing agent), Sodium PCA (skin-identical ingredient), Sodium Lactate, Glycine, Fructose, Urea, Niacinamide, Inositol (water-binding agents), Sodium Benzoate (preservative), Lactic Acid (water-binding agent), Allantoin (soothing agent), Sodium Hyaluronate (skin-identical ingredient), PEG-7 Glyceryl Cocoate (thickener), Sodium Hydroxymethylglycinate (stabilizer), Sodium Methyl Cocoyl Taurate (gentle cleansing agent), Xanthan Gum (thickener), Triethanolamine (pH balancer), Carbomer (gel-based thickener), Benzophenone-3 (stabilizer),Methylparaben (preservative), Propylparaben (preservative).",
+        "url": "http://www.paulaschoice.com/shop/skin-care-categories/cleansers/_/Hydralight-One-Step-Cleanser/"
+      },
+      {
+        "name": "Earth Sourced Perfectly Natural Cleansing Gel",
+        "ingredients": "Water, Decyl Glucoside (coconut-derived cleansing agent), Glycerin (skin-repairing ingredient), Sodium Cocoamphoacetate (coconut-derived cleansing agent), Lauryl Glucoside, Coco-Glucoside (plant-derived cleansing agents), Glucose (sugar-based water-binding agent), Sodium Cocoyl Glutamate, Sodium Lauryl Glucose Carboxylate (plant-derived cleansing agents), Glyceryl Oleate (plant-derived emulsifier), Aloe Barbadensis Leaf Juice (water-binding/soothing agent), Xanthan Gum, Carrageenan (plant-derived thickeners), Sodium Phytate (synthetic chelating agent), Citric Acid (fruit-derived pH adjuster), Potassium Sorbate (plant-derived preservative), Ethylhexylglycerin (synthetic skin-conditioning agent), Phenoxyethanol (synthetic preservative).",
+        "url": "http://www.paulaschoice.com/shop/skin-care-categories/cleansers/_/Earth-Sourced-Perfectly-Natural-Cleansing-Gel/"
+      },
+      {
+        "name": "Clear Pore Normalizing Cleanser",
+        "ingredients": "Water, Sodium Lauroyl Sarcosinate (detergent cleansing agent), Acrylates/Steareth-20 Methacrylate Copolymer (polymer thickening agent), Glycerin (skin-identical ingredient/slip agent), PEG-200 Hydrogenated Glyceryl Palmate (thickener), Sodium Laureth Sulfate (detergent cleansing agent), Butylene Glycol (slip agent), PEG-7 Glyceryl Cocoate (emulsifier), Panthenol (skin conditioning agent), Triclosan (antibacterial agent), Disodium EDTA (chelating agent), Citric Acid (pH adjuster), PEG-60 Hydrogenated Castor Oil (solubolizing agent), Phenoxyethanol, Caprylyl Glycol, Chlorphenesin (preservatives).",
+        "url": "http://www.paulaschoice.com/shop/skin-care-categories/cleansers/_/Clear-Pore-Normalizing-Cleanser/"
+      },
+      {
+        "name": "PC4Men Face Wash",
+        "ingredients": "Water, Decyl Glucoside (coconut-derived cleansing agent), Glycerin (skin-repairing ingredient), Sodium Cocoamphoacetate (coconut-derived cleansing agent), Lauryl Glucoside, Coco-Glucoside (cleansing agents), Glucose (water-binding agent), Sodium Cocoyl Glutamate, Sodium Lauryl Glucose Carboxylate (cleansing agents), Glyceryl Oleate (emulsifier), Aloe Barbadensis Leaf Juice (water-binding/soothing agent), Xanthan Gum, Carrageenan (thickeners), Sodium Phytate (chelating agent), Citric Acid (pH adjuster), Potassium Sorbate (preservative), Ethylhexylglycerin (skin-conditioning agent), Phenoxyethanol (preservative)",
+        "url": "http://www.paulaschoice.com/shop/skin-care-categories/cleansers/_/PC4Men-Face-Wash/"
+      },
+      {
+        "name": "All Over Hair & Body Shampoo",
+        "ingredients": "Water, Sodium Laureth Sulfate (mild cleansing agent), Cocamidopropyl Betaine, Panthenol (vitamin B5/conditioning agent), Hydrolyzed Soy Protein (conditioning agent), Polyquaternium-10 (conditioning/detangling agent), Aloe Barbadensis Leaf Juice Powder (water-binding agent), Sodium Chloride (stabilizer), Ammonium Lauryl Sulfate (cleansing agent), Disodium EDTA (chelating agent), Citric Acid (pH adjuster), Sorbic Acid (preservative).",
+        "url": "http://www.paulaschoice.com/shop/skin-care-categories/cleansers/_/All-Over-Hair-and-Body-Shampoo/"
+      },
+      {
+        "name": "Gentle Touch Makeup Remover",
+        "ingredients": "Water, Cyclotetrasiloxane, Cyclopentasiloxane (silicone solvents/skin-conditioning agents), Isohexadecane (mild solvent), Butylene Glycol, Glycerin (slip agents/water-binding agents), Aloe Barbadensis Leaf Juice (soothing plant extract), Bisabolol (antioxidant/soothing agent), Camellia Oleifera (Green Tea) Leaf Extract (antioxidant), Poloxamer 184 (surfactant polymer), Sodium Dehydroacetate, Benzalkonium Chloride (preservatives), Allantoin (soothing agent), Glycyrrhetinic Acid (licorice-derived anti-irritant), Sodium Chloride, Disodium EDTA (stabilizers), Methylparaben (preservative), Benzyl Alcohol (preservatives).",
+        "url": "http://www.paulaschoice.com/shop/skin-care-categories/cleansers/_/Gentle-Touch-Makeup-Remover/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "epicurencrawl",
+  "count": 6,
+  "frequency": "Manual Crawl",
+  "version": 2,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Sat Jan 10 2015 02:50:23 GMT+0000 (UTC)",
+  "thisversionstatus": "success",
+  "thisversionrun": "Sat Jan 10 2015 02:49:11 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "name": "Crystal Clear Eye Make-up Remover",
+        "ingredients": "Cyclopentasiloxane, Dimethicone Crosspolymer, Water (Aqua), C12-15 Alkyl Benzoate, Caprylyl Methicone, Tocopheryl Acetate (Vitamin E Acetate), Ruscus Aculeatus (Butcher's Broom) Root Extract, Propylene Glycol, Phytonadione, Panthenol, Myristoyl Pentapeptide-17, Hydrolyzed Yeast Protein, Glycerin, Citrus Grandis (Grapefruit) Seed Extract, Centella Asiatica (Gotu Kola) Extract, Calendula Officinalis (Marigold) Flower Extract, Biotinoyl Tripeptide-1, Ammonium Glycyrrhizate, Aesculus Hippocastanum (Horse Chestnut) Extract, Silica."
+      },
+      {
+        "name": "Herbal Cleanser",
+        "ingredients": "Aqua (Distilled Water), Hydroxypropyl Methylcellulose, Betula Alba (White Birch) Bark Extract, Lecithin, Chloroxylenol, PCMX."
+      },
+      {
+        "name": "Citrus Herbal Cleanser",
+        "ingredients": "Water (Aqua), Lecithin, Sodium C14-16 Olefin Sulfonate, Cocamidopropyl Betaine, Tocopheryl Acetate, Panthenol, Citrus Tangerina (Tangerine) Peel Oil, Citrus Aurantium Amara (Bitter Orange) Oil, Sodium PCA, Salix Alba (Willow) Bark Extract, Sodium PCA, Hydrolyzed Collagen, Cucumis Sativus (Cucumber) Fruit Extract, Citric Acid."
+      },
+      {
+        "name": "Gelle' Cleanser",
+        "ingredients": "Aqua (Water), Decyl Glucoside (Planteren 2000), Sodium Chloride, Collagen, Hydrolyzed Elastin, Elastin Amino Acids, Niacin, Biotin, Riboflavin, Citric Acid, Citrus Grandis (Grapefruit) Seed Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Cinnamomum Cassia (Cinnamon) Extract, Arctostaphylos Uva Ursi (Bearberry) Leaf Extract, Azulene."
+      },
+      {
+        "name": "Clarify Cleanser",
+        "ingredients": "Water (Aqua), Sodium Tetradecene Sulfonate, Cocamidopropyl Betaine, PPG-2 Hydroxy-ethyl Coco/Isostearamide, Acrylates Copolymer, Aloe Barbadensis Leaf Juice, Decyl Glucoside, PEG-7 Glyceryl Cocoate, Zinc PCA, Salix Alba (Willow) Bark Extract, Sodium Hydroxide, Citric Acid, Glycerin, Lavandula Angustifolia (Lavender) Oil, Tetrasodium Glutamate Diacetate, Fragrance (Parfum)*, Allantoin, Mica, Salicylic Acid, Titanium Dioxide. *Natural Essential Oil Blend."
+      },
+      {
+        "name": "Milk Cleanser",
+        "ingredients": "Aloe Barbadensis (Organic Aloe Vera) Leaf Juice*, Glycerin, Water (Aqua),\nAleurites Moluccana (Kukui Nut) Seed Oil, Helianthus Annuus (Hybrid Sunflower) Oil,\nHamamelis Virginiana (Witch Hazel) Leaf Extract, Caprylic/Capric Triglyceride, Dicaprylate/Dicaprate, Macadamia Glycerides, Centella Asiatica (Gotu Kola) Extract, Triticum Vulgare (Wheat) Germ Extract, Salix Alba (Willow) Bark Extract, Nymphaea Alba Flower (Water Lily) Extract, Panthenol (Pro-Vitamin B5), Ruscus Aculeatus (Butcher's Broom) Root Extract, Oenothera Biennis (Evening Primrose) Flower Extract, Hydrolyzed Yeast Protein, Glycyrrhiza Glabra (Licorice) Extract, Echinacea Angustifolia (Cone Flower) Extract, Cananga Ororata (Ylang Ylang) Flower Extract, Cinnamomum Camphora (Camphor) Leaf Extract, Calendula Officinalis (Marigold) Flower Extract, Aesculus Hippocastanum (Horse Chestnut) Extract, Citrus Grandis (Grapefruit) Seed Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract. *Organic"
+      }
+    ]
+  }
+}

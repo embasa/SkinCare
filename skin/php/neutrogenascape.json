@@ -1,0 +1,375 @@
+{
+  "name": "Neutorogena Ingredients",
+  "count": 36,
+  "frequency": "Manual Crawl",
+  "version": 1,
+  "newdata": true,
+  "lastrunstatus": "success",
+  "lastsuccess": "Sat Jan 10 2015 00:00:47 GMT+0000 (UTC)",
+  "thisversionstatus": "success",
+  "thisversionrun": "Sat Jan 10 2015 00:00:44 GMT+0000 (UTC)",
+  "results": {
+    "collection1": [
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#12764",
+          "text": "Neutrogena Ageless Essentials Continuous Hydration Cream Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Glycerin, PEG-8, Stearic Acid, Capric/Caprylic Stearic Triglyceride, Glycol Distearate, Cetearyl Alcohol, Cetearyl Alcohol, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Chrysanthemum Parthenium (Feverfew) Extract, Ricinus Communis Seed Oil (Castor), Tocopheryl Acetate, Cyclopentasiloxane, Cocamide MEA, Ceteareth-20, Dimethiconol, Beta Glucan (Oat Flour), Triethanolamine, Xanthan Gum, Disodium EDTA, Methylparaben, Ethylparaben, DMDM Hydrantoin, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#12772",
+          "text": "Neutrogena Ageless Restoratives Energy Renewal Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Sodium Methyl Cocoyl Taurate, Cocamidopropyl Bentaine, Myristic Acid, Stearic Acid, Glycerin, Coco Glucoside, Glyceryl Oleate, Glycol Distearate, Lauric Acid, Sodium Hydroxide, Cocamidopropyl PG Dimonium, Chloride Phosphate, Cetyl Alcohol, Polyethylene, Acrylates/C10 30 Alkyl Acrylate Crosspolymer, Magnesium Aluminum Silicate, Soymilk Powder, Ascorbyl Glucoside, Titanium Dioxide, Disodium EDTA, Methylparaben, Propylparaben, Ethylparaben, DMDM Hydantoin, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#19138",
+          "text": "Neutrogena Clear Pore Daily Scrub"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Glycerin, Kaolin, Bentonite, Sodium Methyl Cocoyl Taurate, Titanium Dioxide, Polyethylene, Sodium Chloride, Xanthan Gum, Citric Acid, Sodium Citrate, Trideceth-9, Disodium EDTA, Fragrance, PEG-5 Ethylhexanoate, Menthol"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#19490",
+          "text": "Neutrogena Complete Acne Therapy System Skin Polishing Acne Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Sodium Methyl Cocoyl Taurate, Cocamidopropyl Betaine, Sodium Cocoamphoacetate, Glycol Distearate, Polyethylene, Glycolic Acid, Sodium Lactate, Cocamidopropyl PG-Dimonium Chloride Phosphate, Polyquaternium-11, Disodium EDTA, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#2778",
+          "text": "Neutrogena Deep Clean Cream Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Cetyl Alcohol, PPG-15 Stearyl Ether, Methyl Gluceth 20, Steareth 21, Gelatin, Salicylic Acid, Polysorbate-60, Steareth 2, DEA-Cetyl Phosphate, Disodium EDTA, Menthol, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#2779",
+          "text": "Neutrogena Deep Clean Facial Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Sodium C14 16 Olefin Sulfonate, Cocamidopropyl Betaine, Sodium C12-15 Pareth-15 Sulfonate, Salicylic Acid, Linoleamidopropyl PG-Dimonium Chloride Phosphate, Disodium EDTA, Propylene Glycol, FD&amp;C Yellow 5, FD&amp;C Red 40, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#6266",
+          "text": "Neutrogena Deep Clean Foaming Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Potassium Stearate, Glycerin, Peg-8, Propylene Glycol, Potassium Myristate, Potassium Laurate, Stearic Acid, Beeswax, Glyceryl Stearate, Peg-100 Stearate, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#7432",
+          "text": "Neutrogena Deep Clean Invigorating Daily Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Decyl Glucoside, Cocamidopropyl Betaine, Propylene Glycol, Butylene Glycol, Ppg 5 Ceteth 20, Salicylic Acid, Betaine, Menthol, Neopentyl Glycol Dicaprylate/Dicaprate, Sodium Benzotriazole Butylphenol Sulfonate, Sodium Lactate, Dehydroxanthan Gum, Tetrahydroxypropyl Ethylenediamine, Disodium Edta, Agar, Dmdm Hydantoin, Citric Acid, Ext Violet 2, Blue 1, Ultramarines, Frangrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#7435",
+          "text": "Neutrogena Deep Clean Invigorating Shine-Free Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Stearic Acid, Glycerin, Peg 8, Propylene Glycol, Myristic Acid, Potassium Hydroxide, Lauric Acid, Bees Wax, Glyceryl Stearate, Peg 100 Stearate, Menthyl Lactate, Synthetic Wax, Ultramarines, Blue 1, Red 33, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#12767",
+          "text": "Neutrogena Deep Clean Relaxing Nightly Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Cocamidopropyl Betaine, Propylene Glycol, Decyl Glucoside, PPG 5 Ceteth 20, Disodium EDTA, Dehydroxanthan Gum, Betaine, Neopentyl Glycol, Neopentyl Glycol Dicaprylate/Dicaprate, Chondrus Crispus (Carrageenan), Tetrahydroxypropyl Ethylenediamine, Sodium Benzotriazolyl Butylphenol Sulfonate, Sodium Lactate, Citric Acid, Agar, Polyvinyl Alcohol, Ext Violet 2, DMDM Hydantoin, Red 33, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#12768",
+          "text": "Neutrogena Deep Clean Relaxing Nightly Scrub"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Sodium Methyl Cocoyl Taurate, Polyethylene, Glycerin, Cocamidopropyl Betaine, Glycol Distearate, Stearic Acid, PEG 8, Synthetic Wax, Dimer Dilinoleamidopropyl PG Dimonium Chloride Phosphate, Isopropyl Myristate, Cetyl Alcohol, Salicylic Acid, Acrylates/C10 30 Alkyl Acrylate Crosspolymer, Magnesium Aluminum Silicate, Disodium EDTA, Sodium Hydroxide, Xanthan Gum, Talc, Violet 2, Ultramarines, Red 30, Red 17, DMDM Hydantoin, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#2772",
+          "text": "Neutrogena Extra Gentle Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Glycerin, Caprylic/CapricTriglyceride, Cetyl Ricinoleate, Isohexadecane, TEA Cocoyl Glutamate, Methylglucose Sesquistearate, Stearyl Alcohol, Cetyl Alcohol, PEG-40 Hydrogenated Castor Oil, PEG-20 Methyl Glucose Sequistearate, Bisabolol, Chamomile Extract, Tocopheryl Acetate, Dipotassium Glycyrrhizate, Stearyl Glycyrrhetinate, Tetrasodium EDTA, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Triethanolamine, BHT, Geranium, Dipropylene Glycol, Phenoxyethanol, Propylparaben, Methylparaben."
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#2775",
+          "text": "Neutrogena Facial Cleansing Formula Fragrance Free"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Glycerin, Sodium Oleate, Sodium Cocoate, Sodium Trideceth Sulfate, Disodium Cocamphodipropionate, Sodium Cocoamphodiacetate, Lauramide DEA, Cocamidopropyl Betaine, Triethanolamine, BHT, Trisodium HEDTA, Methylparaben, Propylparaben, Citric Acid, Blue 1, Red 33, Yellow 5"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#10188",
+          "text": "Neutrogena Fine Fairness Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Sodium Methyl Cocoyl Taurate, Myristic Acid, Stearic Acid, Glycerin, Cocamidopropyl Betaine, Lauric Acid, Ethylene Glycol Distearate, Sodium Hydroxide, Coco-Glucoside, Glyceryl Oleate, Cocamidopropyl Pg Dimonium Chloride Phosphate, Cetyl Alcohol, Glycine Soja (Soybean) Seed Extract, Ascorbyl Glucoside, Saxifraga Sarmentosa Extract, Vitis Vinifera (Grape) Fruit Extract, Morus Bombycis Root Extract, Scutellaria Baicalensis Root Extract, Camellia Oleifera Leaf Extract, Butylene Glycol, Disodium Edta, Titanium Dioxide, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Magnesium Aluminum Silicate, Phenoxyethanol, Methylparaben, Ethylparaben, Butylparaben, Propylparaben, Isobutylparaben, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#2773",
+          "text": "Neutrogena Fresh Foaming Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Glycerin, Lauryl Glucoside, Decyl Glucoside, Cocamidopropyl Betaine, Cocamide DEA, Glycereth 7, Ammonium Laureth Sulfate, Sodium Cocoyl Sarcosinate, Glycol Stearate, PEG 120 Methyl Glucose Dioleate, Tetrasodium EDTA, DMDM Hydantoin, Citric Acid, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#2780",
+          "text": "Neutrogena Healthy Skin Anti-Wrinkle Anti-Blemish Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Sodium Methyl Cocoyl Taurate, Cocoamidopropyl Betaine, Sodium Cocoamphoacetate, Glycol Distearate, Glycolic Acid, Sodium Lactate, Cocamidopropyl PG-Dimonium Chloride Phosphate, Polyquaternium-11, Disodium EDTA, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#2774",
+          "text": "Neutrogena Liquid Facial Cleansing Formula"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Glycerin, Sodium Oleate, Sodium Cocoate, Sodium Trideceth Sulfate, Disodium Cocamphodipropionate, Sodium Cocoamphodiacetate, Lauramide DEA, Cocamidopropyl Betaine, Triethanolamine, BHT, Trisodium HEDTA, Citric Acid, FD&amp;C Blue 1, D&amp;C Red 33, FD&amp;C Yellow 5, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#19476",
+          "text": "Neutrogena Makeup Remover Cleansing Towelettes"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Cetyl Ethylhexanoate, Isostearyl Palmitate, Pentaerythrityl Tetraethylhexanoate, Isononyl Isononanoate, Cyclopentasiloxane, Hexylene Glycol, PEG 4 Laurate, PEG 6 Caprylic/Capric Glycerides, Sucrose Cocoate, Carbomer, Sodium Hydroxide, Benzoic Acid, Dehydroacetate Acid, Phenoxyethanol, Iodopropynyl Butylcarbamate, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#7421",
+          "text": "Neutrogena Men Skin Clearing Face Wash"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Lauryl Glucoside, Sodium Methyl Cocoyl Taurate, Cocamidopropyl Betaine, Sodium Laureth-13 Carbolic Acid, Glycerin, Disodium Edta, Cocamidopropyl Pg Dimonium Chloride Phosphate, Menthol, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#19464",
+          "text": "Neutrogena Naturals Face & Body Bar"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Sodium Palmate, Sodium Cocoate Or Sodium Palm Kernelate, Water, Glycerin, Sodium Stearate, Sorbitol, Stearic Acid, Galactoarabinan, Olea Europaea (Olive) Fruit Oil, Persea Gratissima (Avocado) Oil, Potassium Cocoate Or Potassium Palm Kernelate, Potassium Palmate, Potassium Stearate, Pentasodium Pentetate, Tetrasodium Etidronate, Propylene Glycol"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#19462",
+          "text": "Neutrogena Naturals Fresh Cleansing + Makeup Remover"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Cocamidopropyl Hydroxysultaine, Sodium Lauroyl Sarcosinate, Cocamidopropyl Betaine, Glycerin, Hydrolyzed Caesalpinia Spinosa Gum, Caesalpinia Spinosa Gum, Coco-Glucoside, Glyceryl Oleate, Glycol Distearate, Guar Hydroxypropyltrimonium Chloride, Caprylyl Glycol, Acrylates Copolymer, Potassium Sorbate, Benzyl Alcohol, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#19460",
+          "text": "Neutrogena Naturals Purifying Facial Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Decyl Glucoside, Glycerin, Cocamidopropyl Hydroxysultaine, Sodium Lauryl Sulfoacetate, Salix Alba (Willow) Bark Extract, Guar Hydroxypropyltrimonium Chloride, Sodium Benzoate, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#19461",
+          "text": "Neutrogena Naturals Purifying Pore Scrub"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Glycerin, Cocamidopropyl Betaine, Hydrogenated Castor Oil, Cocamidopropyl Hydroxysultaine, Xanthan Gum, Salix Alba (Willow) Bark Extract, Guar Hydroxypropyltrimonium Chloride, Hydrogenated Jojoba Oil, Glycol Distearate, Sodium Benzoate, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#12785",
+          "text": "Neutrogena Oil Free Makeup Remover"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Cyclopentasiloxane, Cyclohexasiloxane, Aloe Barbadensis Leaf Juice, Benzyl Alcohol, Sodium Chloride, Dipropylene Glycol, Poloxamer 182, Allantoin, Tripotassium EDTA, Benzalkonium Chloride, Glycerin, Cucumber Fruit Extract (Cucumis Sativus), Potassium Phosphate, Dipotassium Phosphate"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#2782",
+          "text": "Neutrogena Oil-Free Acne Wash"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Sodium C14-16 Olefin Sulfonate, Cocamidopropyl Betaine, Sodium C12-15 Pareth-15 Sulfonate, Aloe Extract, Chamomile Extract, Matricaria Extract, Linoleamidopropyl PG-Dimonium Chloride Phosphate, Disodium EDTA, Propylene Glycol, FD&amp;C Yellow 5, FD&amp;C Red 40, Sodium Chloride, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#19164",
+          "text": "Neutrogena Oil-Free Acne Wash Clear Skin Wipes"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Alcohol Denat., Butylene Glycol, C12-15 Alkyl Lactate, Sodium Hydroxide, Glycerin, Ppg-5-Ceteth-20, Fragrance, Dipropylene Glycol, Boswellia Serrata Gum, Cocamidopropyl Pg-Dimonium Chloride Phosphate, Peg/Ppg-20/6 Dimethicone, Cetyl Lactate, Benzalkonium Chloride, Menthol, Disodium Edta, Sodium Benzotriazolyl Butylphenol Sulfonate, Camellia Oleifera Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#12770",
+          "text": "Neutrogena Oil-Free Acne Wash Pink Grapefruit Facial Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Sodium C14 16 Olefin Sulfonate, Cocamidopropyl Betaine, Linoleamidopropyl, PG Dimonium Chloride Phosphate, Polysorbate 20, Anthemis Nobilis Flower Extract, Citrus Grandis (Grapefruit) Fruit Extract, Aloe Barbadensis Flower Extract, Chamomilla Recutita (Matricaria) Flower Extract, C12 15 Alkyl Lactate, Cocamidopropyl PG Dimonium Chloride Phosphate, Polyquaternium 7, Ascorbyl Palmitate, Propylene Glycol, Sodium Benzotriazoyl Butylphenol Sulfonate, PEG 120 Methyl Glucose Dioleate, PEG 80 Sorbitan Laurate, Disodium EDTA, Sodium Chloride, Benzalkonium Chloride, Red 40, Violet 2, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#2783",
+          "text": "Neutrogena Oil-Free Cream Cleanser Salicylic Acid Acne Treatment"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Sodium C14 16 Olefin Sulfonate, Cocamidopropyl Betaine, Cetyl Alcohol, Stearyl Alcohol, Di-C12-15 Alkyl Fumarate, Coco-glucoside, Coconut Alcohol, DEA-Cetyl Phosphate, Matricaria Flower Extract (chamomilla recutita), Aloe Barbadensis Leaf Extract, Anthemis Nobilis Flower Extract, Hydroxypropyl Methylcellulose, Potato Starch (solanum tuberosum), Propylene Glycol, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#2784",
+          "text": "Neutrogena Pore Refining Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Decyl Polyglucose, Cetyl Alcohol, Ethylene Glycol Distearate, Sodium Laureth 13 Carboxylate, Cocamide MEA, Disodium Lauryl Sulfosuccinate, Polyethylene, Cocamidopropyl Betaine, Sodium Methyl Cocoyl Taurate, Salicylic Acid, Glycolic Acid, Polyquaternium-11, Linoleamindopropyl PG Dimonium Chloride Phosphate, Sodium PCA, PEG 150 Pentaerythrityl Tetrastearate, Hydroxypropyl Guar, Disodium EDTA, BHT, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#19172",
+          "text": "Neutrogena Rapid Clear Foaming Scrub"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Sodium C14-16 Olefin Sulfonate, Glycerin, Cocamidopropyl Betaine, Polyethylene, Acrylates Copolymer, Fragrance, Polysorbate 20, Sodium Hydroxide, Disodium Edta, C12-15 Alkyl Lactate, Benzalkonium Chloride, Polyquaternium-7, Menthol, Sodiium Benzotriazolyl Butylphenol Sulfonate, Cocamidopropyl Pg-Dimonium Chloride Phosphate, Agar, Ascorbyl Palmitate, Butylene Glycol, Propylene Glycol, Chamomilla Recutita (Matricaria) Flower Extract, Cameillia Oleifera Leaf Extract, Iron Oxides, Yellow 5, Red 30 Lake, Mica, Red 40, Titanium Dioxide"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#2777",
+          "text": "Neutrogena Rapid Clear Oil-Control Foaming Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Potassium Stearate, Glycerin, PEG-8, Propylene Glycol, Potassium Myristate, Potassium Laurate, Stearic Acid, Beeswax, Glyceryl Stearate, PEG 100 Stearate, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#10192",
+          "text": "Neutrogena Skin Clearing Foam Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Stearic Acid, Propylene Glycol, Glycerine, Peg-8, Myristic Acid, Potassium Hydroxide, Lauric Acid, Beeswax, Glyceryl Stearate, Peg-100 Stearate, Sodium Metinyl Cocoyl Taurate, Ppg-5 Ceteth-20, Triclocarbon, Cetrus Atlantica Bark Extract, Portulaca Oleracea Extract, Bisabolol, Dipotassium Glycyrrhizate, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#2786",
+          "text": "Neutrogena Skin Clearing Foaming Wash"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Ammonium Lauryl Sulfate, PEG-8, Cocamidopropyl Betaine, Polysorbate 20, Sodium PCA, Salicylic Acid, Panthenol, Trideceth-9, PEG-5 Ethylhexanoate, Angelica Archangelica Root Extract, Dandelion (Taraxacum Officinale) Root Extract, Turmeric (Curcuma Longa) Extract, , Tocopheryl Acetate, Ascorbyl Glucoside, BHT, Dipotassium Glycyrrhizate, Benzophenone-4, Tetrasodium EDTA, Sodium Methyl Cocoyl Taurate, Sodium Hydroxide, Butylene Glycol, Sodium Citrate, Methylparaben, Ethylparaben, Propylparaben, Phenozyethanol, Fragrance."
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#12776",
+          "text": "Neutrogena Skin iD 14 Cream Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Cetyl Alcohol, PPG-15 Stearyl Ether, Glycolic Acid, Glycerin, Steareth-21, Polysorbate 60, C12-15 Alkyl Lactate, Cetyl Lactate, Cocamidopropyl PG-Dimonium Chloride Phosphate, Panthenol, Benzalkonium Chloride, Menthol, Sodium Hydroxide, Potassium Cetyl Phosphate, Xanthan Gum, Disodium EDTA, Fragrance"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#19176",
+          "text": "Neutrogena Skinid Cleanser/Mask Benzoyl Peroxide Acne Treatment"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Glycerin, Kaolin, Bentonite, Sodium Methyl Cocoyl Taurate, Titanium Dioxide, PEG-5 Ethylhexanoate, Menthol, Trideceth 9, Sodium Citrate, Disodium EDTA, Citric Acid, Xanthan Gum"
+        }
+      },
+      {
+        "name": {
+          "href": "http://www.cosmetic-ingredients.net/product.php?brand=82&type=Cleanser&lang=English#2785",
+          "text": "Neutrogena Visibly Even Foaming Cleanser"
+        },
+        "ingredients": {
+          "href": "http://www.cosmetic-ingredients.net/ingredient.php?ingredient_id=268",
+          "text": "Water, Sodium Methyl Cocoyl Taurate, Myristic Acid, Stearic Acid, Glycerin, Cocamidopropyl Betaine, Coco Glucoside, Glyceryl Oleate, Glycol Distearate, Lauric Acid, Sodium Hydroxide, Polyethylene, Cocamidopropyl PG-Dimonium Chloride Phosphate, Cetyl Alcohol, Soybean Seed Extract (Glycine Soja), Ascorbyl Glucoside, Saxifraga Sarmentosa Extract, Grapefruit Extract (Vitis Vinifera), Butylene Glycol, Morus Bombycis Root Extract, Scutellaria Baicalensis (Root) Extract, Camellia Sinensis Leaf Extract, Disodium EDTA, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Magnesium Aluminum Silicate, Phenoxyethanol, Methylparaben, Ethylparaben, Propylparaben, Butylparaben, Titanium Dioxide, Fragrance"
+        }
+      }
+    ]
+  }
+}
