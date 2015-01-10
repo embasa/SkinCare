@@ -56,10 +56,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                    	<a class="page-scroll" href="http://www.chrisdesigns.net/skin/chris/demo.html">Demo</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="http://www.chrisdesigns.net/skin/chris/demo.html">Database</a>
+                        <a class="page-scroll" href="#portfolio">Database</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">Profile</a>
@@ -70,7 +73,9 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-                </ul>
+                    <li>
+                    	<a class="login.php" href="login.php">Login</a>
+                    </li>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -83,7 +88,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Welcome to</div>
                 <div class="intro-heading">Skin City</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+                <a href="#services" class="page-scroll btn btn-xl">How it Works</a>
             </div>
         </div>
     </header>
@@ -93,8 +98,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">What is Skin City?</h2>
+                    <h3 class="section-subheading text-muted">Skin City is a smart skincare product ingredient database</h3>
                 </div>
             </div>
             <div class="row text-center">

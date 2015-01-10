@@ -19,3 +19,4 @@
 [10-Jan-2015 05:50:06 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/versions.php on line 49
 [10-Jan-2015 05:53:49 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/versions.php on line 49
 [10-Jan-2015 05:57:35 UTC] PHP Fatal error:  Call to undefined function makeTable() in /home/cchen408/public_html/skin/php/versions.php on line 37
+[10-Jan-2015 21:01:30 UTC] PHP Fatal error:  Call to undefined method SQLite3Result::fetch() in /home/cchen408/public_html/skin/php/database.php on line 65
