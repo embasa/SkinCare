@@ -6,52 +6,60 @@
     <title>SkinCity Database</title>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
+	 
+	 var currentData;    
+    
     function getData(filter) {
       $('#dataTable').empty();
       $.ajax({ url: 'demo.php', data: {'type': filter}, success: function(data) {
+      		currentData = data;
           data.forEach(function(element) {
             $('#dataTable').append('<tr><td>' + element + '</td></tr>');
           });
         }});
     }
     
-    function getOptions(filter) {
-		$('#dataList').empty();
-		$.ajax({ url: 'demo.php', data: {'type': filter}, success: function(data) {
-			data.forEach(function(element) {
+    function getOptions(field) {
+		$('#search').empty();
+			currentData.forEach(function(element) {
+			  if(element.toString().indexOf(field.value) != -1){
 				$('#dataList').append('<option value ="' + element + '">');
-              });
-        }});
+			  }
+         });
     }
     
-    </script>
+	function updateData(field) {
+	  $('#dataTable').empty();
+	  currentData.forEach(function(element) {
+	    if (element.toString().indexOf(field.value) != -1) {
+	      $('#dataTable').append('<tr><td>' + element + '</td></tr>');
+	    }
+	  });
+	}    
+    
+    //$("input").change(updateData);
+    
+    </script> 
   </head>
   <body>
+
   <h1>SkinCity Database</h1>
   <button onclick="getData('evens')">Evens</button>
   <button onclick="getData('odds')">Odds</button>
   <table id="dataTable"></table>
   <h3>Filters:</h3>
   <p>Include:
-  
-  <form action="submit.php" method="get">
-  <input list="products" name="products">
- 		 <datalist id="dataList">
-    <option value="product1"></option>
-    <option value ="two"></option>
-  </datalist>
-  <input type="submit">
-</form>
-
-
+  <input list="products" id="include" oninput="updateData(this)">
 
 <p>Exclude:
-<form action="" method="post">
-  <input list="products" name="products">
- 		 <datalist id="exclude">
+  <input list="products" id="exclude" oninput="updateData(this)">
+  
+ <p>Search:
+  <input list="search" id="searchInput" oninput="getOptions(this)">
+ 		 <datalist id="search">
     <option value="product1">
-  </datalist>
-  <input type="submit">
-</form>
+  </datalist>   
+  
+  
  </body>
 </html>

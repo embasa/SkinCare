@@ -10,7 +10,7 @@
 	if(!$db){
 		echo $db->lastErrorMsg();
 	} else {
-		echo "Opened database successfully\n\n";
+		echo "Opened database successfully<br />";
 	}
 
 	$sql =<<<EOF
@@ -39,42 +39,57 @@ EOF;
 	$ret = $db->exec($sql);	
 	if(!$ret){
 		echo $db->lastErrorMsg();
+		echo"<br />";
 	} else {
-		echo "Ingredients created successfully\n";
+		echo "Ingredients created successfully<br />";
 	}
 	
 	//products table
 	$ret = $db->exec($sql2);	
 	if(!$ret){
 		echo $db->lastErrorMsg();
+		echo"<br />";
 	} else {
-		echo "Product created successfully\n";
+		echo "Product created successfully<br />";
 	}
-
+	//productingredient relations table
 	$ret = $db->exec($sql3);	
 	if(!$ret){
 		echo $db->lastErrorMsg();
+		echo"<br />";
 	} else {
-		echo "ProductIngredients created successfully\n";
+		echo "ProductIngredients created successfully<br />";
 	}
-	if($db->exec('INSERT INTO Product (ProductID,Name,Type,Brand,URL) VALUES (1,"Chenski","lube","AsianFlare","www.ownit.com")')){
-		echo "query successsssfull\n\n\n";
-	}
-	$stmt = $db->prepare('SELECT * FROM Product');
-	echo "prepared stmt";
-	$result = $stmt->execute();
-	echo "executed stms";
-	var_dump($result->numColumns());
-/*	if($result = $db->query('SELECT * FROM Product'))
-	{
-		echo "SDFSDFSDFSDFSFD";
-		echo $result->fetchArray();
-		while($row = $result->fetchArray()){
-			//echo "Name: {$row[Name]} <br />";
-			echo "shitnessgracious";
-		}
-
+	
+	//Syntax on how to add to table.
+	/*	
+	if($db->exec('INSERT INTO Product (ProductID,Name,Type,Brand,URL) VALUES (2,"Chenski","lube","AsianFlare","www.ownit.com")')){
+		echo "query successsssfull <br />";
+	}else{
+		echo "query failed babbbyyy <br />";
 	}*/
-	echo "momammamamamamam";
+	
+	//prepares a statement to be executed by db
+	$stmt = $db->prepare('SELECT * FROM Product');
+
+	//executes the statement and returns an sqlite3result object
+	$result = $stmt->execute();
+	echo "executed<br />";
+
+	//returns a row as an associative array 
+	while($row = $result->fetchArray()){
+		echo "ProductID: {$row[ProductID]} <br />";
+		echo "Name: {$row[Name]} <br />";
+		echo "Type: {$row[Type]} <br />";
+		echo "Brand: {$row[Brand]}<br />";
+		echo "URL: {$row[URL]} <br />";
+	}
+	
+	if($db->exec('DELETE FROM Product WHERE Name="Chenski"')){
+		echo "row deleted <br />";
+	}else{
+		echo "row NOT deleted <br />";
+	}
+	echo "done...<br />";
 	$db->close();
 ?>

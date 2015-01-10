@@ -86,8 +86,8 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome to</div>
-                <div class="intro-heading">Skin City</div>
+                <div class="intro-lead-in">Welcome,</div>
+                <div class="intro-heading">admin</div>
                 <a href="#services" class="page-scroll btn btn-xl">Get Started</a>
             </div>
         </div>
@@ -103,26 +103,21 @@
                 </div>
             </div>
             <div class="row text-center">
-            <p>
-            Find the right product for your skin!  The current market is filled with products that have long lists of obscure ingredients. Skin city gives consumers the ability to make smarter buying choices by focusing on the ingredients they contain.
-            </p>
-            </div>
-            <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Online Store</h4>
-                    <p class="text-muted">Browse our endless aisles online, and have product shipped straight to you door.</p>
+                    <h4 class="service-heading">e-Commerce</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Create Your Profile</h4>
-                    <p class="text-muted">If you haven't done so already, create your own cutom, unique user profile.</p>
+                    <h4 class="service-heading">Responsive Design</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -186,7 +181,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Skin City for HACK UCSC 2014</span>
+                    <span class="copyright">Copyright &copy; Skin City for HACK UCSC 2015</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
