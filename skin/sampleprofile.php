@@ -1,8 +1,7 @@
 <?php
 session_start(); /// initialize session
 include("passwords.php");
-check_logged(); /// function checks if visitor is logged.
-If user is not logged the user is redirected to login.php page
+check_logged(); /// function checks if visitor is logged. If user is not logged the user is redirected to login.php page
 ?>
 
 <!DOCTYPE html>
@@ -42,7 +41,12 @@ If user is not logged the user is redirected to login.php page
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Home</a>
+          <a class="navbar-brand" href="index.php">Home</a>
+          <?php
+		     echo '<form action="index.php" method="post"><input type="hidden" name="ac" value="log">
+		          <input type="submit" value="Logout" />
+     		      </form>';
+          ?>
         </div>
       </div>
     </div>
@@ -50,39 +54,15 @@ If user is not logged the user is redirected to login.php page
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <center><h1>Welcome sample user</h1><center>
+        <center><h1>Welcome, Admin!</h1><center>
       </div>
     </div>
-
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <center>
-          <h2>Who We Are</h2>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-          <center>
-        </div>
-        <div class="col-md-4">
-          <center>
-          <h2>Not Signed Up Yet?</h2>
-          <p><a class="btn btn-default" href="#" role="button"> Register &raquo;</a></p>
-          <center>
-       </div>
-        <div class="col-md-4">
-          <center>
-          <h2>Returning User?</h2>
-          <p><a class="btn btn-default" href="#" role="button"> Login &raquo;</a></p>
-          <center>
-        </div>
-      </div>
-
       <hr>
 
       <footer>
         <p>&copy; HACK UCSC 2015</p>
       </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
