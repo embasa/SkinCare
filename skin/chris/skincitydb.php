@@ -46,7 +46,7 @@ $db = new MyDB();
 if(!$db){
       echo $db->lastErrorMsg();
    } else {
-      echo "Opened database successfully\n";
+      //echo "Opened database successfully\n";
    }
    
 /*   

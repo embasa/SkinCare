@@ -26,7 +26,9 @@
 	 
 	 var currentData;    
     
-    $(document).ready(function getData() {
+    $(document).ready(getData());
+    
+    function getData() {
       $('#dataTable').empty();
       $('#dataTable').append('<th>name<th>brand<th>type<th>ingredients<th>url');
       $.ajax({ url: 'skincitydb.php', success: function(data) {
@@ -39,7 +41,9 @@
             												 '<td>  <a href ="' + element['url'] + '">link</a>  </td></tr>');
           });
         }});
-    });
+    }
+    
+	 $(document).ready(getData());    
     
     function getOptions(field) {
 		$('#search').empty();
