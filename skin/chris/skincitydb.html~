@@ -162,7 +162,6 @@
   <p>Include:
   <input list="iList1" id="include" oninput="getData()">
 		<datalist class="iList" id="iList1">
-				<option value = "ingredient">
 		</datalist>
 <p>Exclude:
   <input list="iList2" id="exclude" oninput="getData()">
