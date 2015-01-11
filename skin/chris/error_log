@@ -794,3 +794,7 @@
 [11-Jan-2015 17:34:00 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 8
 [11-Jan-2015 17:50:24 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
 [11-Jan-2015 17:50:24 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 8
+[11-Jan-2015 18:36:06 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 18:36:06 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 8
+[11-Jan-2015 18:36:14 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 18:36:14 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 8
