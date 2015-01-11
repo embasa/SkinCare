@@ -100,8 +100,8 @@
 				 echo "You are logged in."; // if user is logged show a message
 			} else { // if not logged show login form
 				 echo '<form action="admin.php" method="post" id="loginform"><input type="hidden" name="ac" value="log"> ';
-				 echo 'Username: <input type="text" name="username" />';
-				 echo 'Password: <input type="password" name="password" />';
+				 echo '<div><label for="username">Username: </label><input type="text" name="username" id="username" /></div>';
+				 echo '<div><label for="password">Password: </label><input type="password" name="password" id="password" /></div>';
 				 echo '<input type="submit" value="Login" />';
 				 echo '</form>';
 			};
@@ -125,24 +125,24 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Online Store</h4>
+                    <p class="text-muted">Browse our endless aisles online, and have product shipped straight to you door.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Create Your Profile</h4>
+                    <p class="text-muted">If you haven't done so already, create your own cutom, unique user profile.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Safe & Secure</h4>
+                    <p class="text-muted">In today's world of cyber-threats you'll never have to worry about leaving your information with us.</p>
                 </div>
             </div>
         </div>

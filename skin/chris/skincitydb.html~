@@ -9,15 +9,19 @@
 	 
 	 var currentData;    
     
-    function getData(filter) {
+    $(document).ready ( function getData() {
       $('#dataTable').empty();
-      $.ajax({ url: 'demo.php', data: {'type': filter}, success: function(data) {
+      $.ajax({ url: 'skincitydb.php', success: function(data) {
       		currentData = data;
           data.forEach(function(element) {
-            $('#dataTable').append('<tr><td>' + element + '</td></tr>');
+            $('#dataTable').append('<tr><td>' + element['id'] + '</td>' +
+            												         '<td>' + element['name'] + '</td>' +
+            												         '<td>' + element['brand'] + '</td>' +
+            												         '<td>' + element['url'] + '</td>' +
+            												         '<td>' + element['type'] + '</td></tr>');
           });
         }});
-    }
+    });
     
     function getOptions(field) {
 		$('#search').empty();
@@ -53,9 +57,10 @@
   <body>
 
   <h1>SkinCity Database</h1>
-  <button onclick="getData('evens')">Evens</button>
-  <button onclick="getData('odds')">Odds</button>
+
   <table id="dataTable"></table>
+  
+  
   <h3>Filters:</h3>
   <p>Include:
   <input list="products" id="include" oninput="updateIncludeData(this)">

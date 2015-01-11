@@ -15,13 +15,13 @@
 
 	$sql =<<<EOF
 		CREATE TABLE Ingredients 
-		(IngredientsID	INT PRIMARY KEY	NOT NULL,
-		NAME			TEXT			NOT NULL);
+		(IngredientsID	INTEGER PRIMARY KEY AUTOINCREMENT,
+		Name			TEXT			NOT NULL);
 EOF;
 
 	$sql2 =<<<EOF
 		CREATE TABLE Product
-		(ProductID	INT PRIMARY KEY	NOT NULL,
+		(ProductID	INTEGER PRIMARY KEY	AUTOINCREMENT,
 		Name		TEXT			NOT NULL,
 		Type		TEXT			NOT NULL,
 		Brand		TEXT			NOT NULL,
@@ -62,12 +62,21 @@ EOF;
 	}
 	
 	//Syntax on how to add to table.
-	/*	
-	if($db->exec('INSERT INTO Product (ProductID,Name,Type,Brand,URL) VALUES (2,"Chenski","lube","AsianFlare","www.ownit.com")')){
+/*	if($db->exec('INSERT INTO Product (ProductID,Name,Type,Brand,URL) VALUES (2,"Franks avacado","Cleanser","Organic face food","www.organicfaces.com")')){
 		echo "query successsssfull <br />";
 	}else{
 		echo "query failed babbbyyy <br />";
-	}*/
+	}	
+	if($db->exec('INSERT INTO Product (ProductID,Name,Type,Brand,URL) VALUES (1,"Cleanser for Manface","Cleanser","Manly face","www.roughandrugged.com")')){
+		echo "query successsssfull <br />";
+	}else{
+		echo "query failed babbbyyy <br />";
+	}	
+	if($db->exec('INSERT INTO Product (ProductID,Name,Type,Brand,URL) VALUES (0,"Resist Optimal Results Hydrating Cleanser","Cleanser","Paulas Choice","www.paulaschoice.com")')){
+		echo "query successsssfull <br />";
+	}else{
+		echo "query failed babbbyyy <br />";
+	}	*/
 	
 	//prepares a statement to be executed by db
 	$stmt = $db->prepare('SELECT * FROM Product');
@@ -85,7 +94,7 @@ EOF;
 		echo "URL: {$row[URL]} <br />";
 	}
 	
-	if($db->exec('DELETE FROM Product WHERE Name="Chenski"')){
+	if($db->exec('DELETE FROM Product WHERE Type="Cleanser"')){
 		echo "row deleted <br />";
 	}else{
 		echo "row NOT deleted <br />";

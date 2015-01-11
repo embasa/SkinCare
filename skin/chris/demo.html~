@@ -23,15 +23,24 @@
 		$('#search').empty();
 			currentData.forEach(function(element) {
 			  if(element.toString().indexOf(field.value) != -1){
-				$('#dataList').append('<option value ="' + element + '">');
+				$('#search').append('<option value ="' + element + '">');
 			  }
          });
     }
     
-	function updateData(field) {
+	function updateIncludeData(field) {
 	  $('#dataTable').empty();
 	  currentData.forEach(function(element) {
 	    if (element.toString().indexOf(field.value) != -1) {
+	      $('#dataTable').append('<tr><td>' + element + '</td></tr>');
+	    }
+	  });
+	}    
+
+	function updateExcludeData(field) {
+	  $('#dataTable').empty();
+	  currentData.forEach(function(element) {
+	    if (element.toString().indexOf(field.value) == -1) {
 	      $('#dataTable').append('<tr><td>' + element + '</td></tr>');
 	    }
 	  });
@@ -49,10 +58,10 @@
   <table id="dataTable"></table>
   <h3>Filters:</h3>
   <p>Include:
-  <input list="products" id="include" oninput="updateData(this)">
+  <input list="products" id="include" oninput="updateIncludeData(this)">
 
 <p>Exclude:
-  <input list="products" id="exclude" oninput="updateData(this)">
+  <input list="products" id="exclude" oninput="updateExcludeData(this)">
   
  <p>Search:
   <input list="search" id="searchInput" oninput="getOptions(this)">

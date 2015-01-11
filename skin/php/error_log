@@ -48,3 +48,39 @@
 [10-Jan-2015 23:06:05 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 33
 [10-Jan-2015 23:07:42 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 33
 [10-Jan-2015 23:08:46 UTC] PHP Fatal error:  Call to a member function bindParam() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 34
+[10-Jan-2015 23:30:49 UTC] PHP Fatal error:  Call to a member function fetchArray() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 45
+[10-Jan-2015 23:31:25 UTC] PHP Fatal error:  Call to a member function fetchArray() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 46
+[10-Jan-2015 23:35:18 UTC] PHP Fatal error:  Call to a member function fetchArray() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 46
+[10-Jan-2015 23:51:40 UTC] PHP Fatal error:  Call to undefined method MyDB::last_insert_rowid() in /home/cchen408/public_html/skin/php/scrap.php on line 21
+[10-Jan-2015 23:54:23 UTC] PHP Fatal error:  Call to undefined function sqlite_last_insert_rowid() in /home/cchen408/public_html/skin/php/scrap.php on line 21
+[10-Jan-2015 23:54:24 UTC] PHP Fatal error:  Call to undefined function sqlite_last_insert_rowid() in /home/cchen408/public_html/skin/php/scrap.php on line 21
+[10-Jan-2015 23:54:24 UTC] PHP Fatal error:  Call to undefined function sqlite_last_insert_rowid() in /home/cchen408/public_html/skin/php/scrap.php on line 21
+[10-Jan-2015 23:54:24 UTC] PHP Fatal error:  Call to undefined function sqlite_last_insert_rowid() in /home/cchen408/public_html/skin/php/scrap.php on line 21
+[10-Jan-2015 23:54:24 UTC] PHP Fatal error:  Call to undefined function sqlite_last_insert_rowid() in /home/cchen408/public_html/skin/php/scrap.php on line 21
+[10-Jan-2015 23:54:24 UTC] PHP Fatal error:  Call to undefined function sqlite_last_insert_rowid() in /home/cchen408/public_html/skin/php/scrap.php on line 21
+[10-Jan-2015 23:54:25 UTC] PHP Fatal error:  Call to undefined function sqlite_last_insert_rowid() in /home/cchen408/public_html/skin/php/scrap.php on line 21
+[10-Jan-2015 23:54:35 UTC] PHP Fatal error:  Call to undefined method MyDB::sqlite_last_insert_rowid() in /home/cchen408/public_html/skin/php/scrap.php on line 21
+[11-Jan-2015 00:02:58 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 40
+[11-Jan-2015 00:03:00 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 40
+[11-Jan-2015 00:03:08 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:09 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:09 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:09 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:10 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:10 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:10 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:10 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:10 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:23 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:23 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:23 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:24 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:24 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:24 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:24 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:24 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:25 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:25 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:25 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:03:25 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
+[11-Jan-2015 00:05:41 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/cchen408/public_html/skin/php/database.php on line 85

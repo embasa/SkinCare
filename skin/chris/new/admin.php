@@ -74,7 +74,7 @@
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                     <li>
-                    	<a class="page-scroll" href="login.php">Login</a>
+                    	<a class="page-scroll" href="index.php">Logout</a>
                     </li>
             </div>
             <!-- /.navbar-collapse -->

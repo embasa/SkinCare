@@ -107,7 +107,7 @@
             Find the right product for your skin!  The current market for skincare products isn't ingredient-driven. 
             </p>
             <p>
-            With demand for product transparency on the rise, skin city offers.
+            We want to change that by giving savvy consumers the ability to buy skincare products based on the ingredients they contain.
             </p>
             </div>
             <div class="row text-center">
