@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html>
  <head>
     <meta charset=utf-8>
@@ -27,15 +28,14 @@
     
     $(document).ready(function getData() {
       $('#dataTable').empty();
-      $('#dataTable').append('<th>id<th>name<th>brand<th>type<th>ingredients<th>url');
+      $('#dataTable').append('<th>name<th>brand<th>type<th>ingredients<th>url');
       $.ajax({ url: 'skincitydb.php', success: function(data) {
       		currentData = data;
           data.forEach(function(element) {
-            $('#dataTable').append('<tr><td>  ' + element['id'] + '  </td>' +
-            												 '<td>  ' + element['name'] + '  </td>' +
+            $('#dataTable').append('<tr><td>  ' + element['name'] + '  </td>' +
             												 '<td>  ' + element['brand'] + '  </td>' +
             												 '<td>  ' + element['type'] + '  </td>' +
-            												 '<td>  ' + " " + '  </td>' +
+            												 '<td>  ' + element['ingredients'] + '  </td>' +
             												 '<td>  <a href ="' + element['url'] + '">link</a>  </td></tr>');
           });
         }});
@@ -56,7 +56,7 @@
 	    if (element.toString().indexOf(field.value) != -1) {
 	      $('#dataTable').append('<tr><td>' + element + '</td></tr>');
 	    }
-	  	//ifI(!field.value) getData();
+	  	if(!field.value) getData();
 	  });
 	}    
 
@@ -78,7 +78,7 @@
 <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" style="background: rgba(0,0,0,0.5)">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -98,7 +98,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                    	<a class="page-scroll" href="http://www.chrisdesigns.net/skin/chris/demo.html">Demo</a>
+                    	<a class="page-scroll" href="http://www.chrisdesigns.net/skin/chris/skincitydb.html">Demo</a>
                     </li>
 					<li>
 						<a class="page-scroll" href="index.php">Home</a>

@@ -85,3 +85,7 @@
 [11-Jan-2015 00:03:25 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 41
 [11-Jan-2015 00:05:41 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/cchen408/public_html/skin/php/database.php on line 85
 [11-Jan-2015 01:22:15 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 96
+[11-Jan-2015 02:40:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 144
+[11-Jan-2015 02:41:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 144
+[11-Jan-2015 02:41:30 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 144
+[11-Jan-2015 03:39:37 UTC] PHP Fatal error:  Call to a member function exec() on a non-object in /home/cchen408/public_html/skin/php/scrap.php on line 44

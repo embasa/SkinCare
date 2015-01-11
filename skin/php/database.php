@@ -3,7 +3,7 @@
 	{
 		function __construct()
 		{
-			$this->open('test.db');
+			$this->open('skin.db');
 		}
 	}
 	$db = new MyDB();
@@ -25,7 +25,7 @@ EOF;
 		Name		TEXT			NOT NULL,
 		Type		TEXT			NOT NULL,
 		Brand		TEXT			NOT NULL,
-		URL     	TEXT			NOT NULL);
+		URL     	TEXT);
 EOF;
 
 	$sql3 =<<<EOF
@@ -60,23 +60,7 @@ EOF;
 	} else {
 		echo "ProductIngredients created successfully<br />";
 	}
-	
-	//Syntax on how to add to table.
-/*	if($db->exec('INSERT INTO Product (ProductID,Name,Type,Brand,URL) VALUES (2,"Franks avacado","Cleanser","Organic face food","www.organicfaces.com")')){
-		echo "query successsssfull <br />";
-	}else{
-		echo "query failed babbbyyy <br />";
-	}	
-	if($db->exec('INSERT INTO Product (ProductID,Name,Type,Brand,URL) VALUES (1,"Cleanser for Manface","Cleanser","Manly face","www.roughandrugged.com")')){
-		echo "query successsssfull <br />";
-	}else{
-		echo "query failed babbbyyy <br />";
-	}	
-	if($db->exec('INSERT INTO Product (ProductID,Name,Type,Brand,URL) VALUES (0,"Resist Optimal Results Hydrating Cleanser","Cleanser","Paulas Choice","www.paulaschoice.com")')){
-		echo "query successsssfull <br />";
-	}else{
-		echo "query failed babbbyyy <br />";
-	}	*/
+
 	
 	//prepares a statement to be executed by db
 	$stmt = $db->prepare('SELECT * FROM Product');
