@@ -210,6 +210,38 @@
                 </div>
             </div>
    </section>   
+   
+   <!-- About Section -->
+    <section id="credits">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Credits</h2>
+                    <h3 class="section-subheading text-muted">Special thank you :)</h3>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Kimono Labs</h4>
+                    <p class="text-muted">Turn websites into structured APIs from your browser in seconds.</p>
+                </div>
+                <div class="col-md-6">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Iron Summit Media</h4>
+                    <p class="text-muted">Agency Bootstrap - open source website templates for Agencies.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
 
     <section id="contact">
         <div class="container">
