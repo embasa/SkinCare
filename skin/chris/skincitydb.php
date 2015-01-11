@@ -3,6 +3,7 @@ error_reporting(E_ALL);
 ini_set("display_errors", 1);
 header("Content-Type: application/json");
 $data = array();
+$iList = array();
 $includeFilter = $_REQUEST['include'];
 $excludeFilter = $_REQUEST['exclude'];
 /*
@@ -61,6 +62,7 @@ EOF;
    }
 */
 
+//pull me the stuff i need to fill database
 $sql =<<<EOF
 	SELECT Product.Name, Product.Brand, Product.Type, GROUP_CONCAT(Ingredients.Name, ", ") AS AllIngredients, Product.URL
 	FROM Product
@@ -70,7 +72,7 @@ $sql =<<<EOF
 	HAVING AllIngredients LIKE '%' || :include || '%' AND AllIngredients NOT LIKE '%' || :exclude || '%';
 EOF;
    //echo "Operation done successfully\n";
- 
+
 $statement = $db->prepare($sql);
 if(empty($excludeFilter))
   $excludeFilter="secrettolifetheuniverseandeverything";
@@ -83,6 +85,7 @@ while($row = $results->fetchArray(SQLITE3_ASSOC)) {
 	array_push($data, $p);
 }   
    
+
    $db->close();
    
    echo json_encode($data);

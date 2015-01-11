@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html>
  <head>
     <meta charset=utf-8>
@@ -40,21 +39,33 @@
             												 '<td>  ' + element['ingredients'] + '  </td>' +
             												 '<td>  <a href ="' + element['url'] + '">link</a>  </td></tr>');
           });
-        }});
+        }});    
     }
     
-	 $(document).ready(getData());    
+	 $(document).ready(function() {
+	 	getData();
+	 	updateIngredients();
+	 	});    
     
     function getOptions(field) {
 		$('#search').empty();
 			currentData.forEach(function(element) {
-			  if(element['name'].indexOf(field.value) != -1){
+			  if(element['name'].indexOf(field.value) != -1) {
 				$('#search').append('<option value ="' + element['name'].toString() + '">');
 			  }
          });
     }
     
+    function updateIngredients() {
+			$('.iList').empty();
+			$.ajax({ url: 'iList.php', success: function(data) {
+			data.forEach(function(element){
+				$('.iList').append('<option value ="' + element.toString() + '">');
+			});		
+   		}});
+   	 }
     
+    /*
     
 	function updateIncludeData(field) {
 	  $('#dataTable').empty();
@@ -78,6 +89,8 @@
 	    }
 	  });
 	}    
+
+*/    
     
     //$("input").change(updateData);
     
@@ -147,11 +160,14 @@
   
   <h3>Filters:</h3>
   <p>Include:
-  <input list="products" id="include" oninput="getData()">
-
+  <input list="iList1" id="include" oninput="getData()">
+		<datalist class="iList" id="iList1">
+				<option value = "ingredient">
+		</datalist>
 <p>Exclude:
-  <input list="products" id="exclude" oninput="getData()">
-  
+  <input list="iList2" id="exclude" oninput="getData()">
+  		<datalist class="iList" id="iList2">
+		</datalist>
  <p>Search:
   <input list="search" id="searchInput" oninput="getOptions(this)">
  		 <datalist id="search">
