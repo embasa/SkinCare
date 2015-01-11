@@ -107,7 +107,7 @@
             Find the right product for your skin!  The current market for skincare products isn't ingredient-driven. 
             </p>
             <p>
-            We want to change that by giving savvy consumers the ability to buy skincare products based on the ingredients they contain.
+            We give savvy consumers transparency in buying, and the ability to choose products that meet their specifications.
             </p>
             </div>
             <div class="row text-center">

@@ -2,23 +2,41 @@
 <html>
  <head>
     <meta charset=utf-8>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Christopher Chen" >
     <link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="new/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="agency.css" rel="stylesheet">
+    
+     <!-- Custom Fonts -->
+    <link href="new/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    
     <title>SkinCity Database</title>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
     <script>
 	 
 	 var currentData;    
     
-    $(document).ready ( function getData() {
+    $(document).ready(function getData() {
       $('#dataTable').empty();
+      $('#dataTable').append('<th>id<th>name<th>brand<th>type<th>ingredients<th>url');
       $.ajax({ url: 'skincitydb.php', success: function(data) {
       		currentData = data;
           data.forEach(function(element) {
-            $('#dataTable').append('<tr><td>' + element['id'] + '</td>' +
-            												         '<td>' + element['name'] + '</td>' +
-            												         '<td>' + element['brand'] + '</td>' +
-            												         '<td>' + element['url'] + '</td>' +
-            												         '<td>' + element['type'] + '</td></tr>');
+            $('#dataTable').append('<tr><td>  ' + element['id'] + '  </td>' +
+            												 '<td>  ' + element['name'] + '  </td>' +
+            												 '<td>  ' + element['brand'] + '  </td>' +
+            												 '<td>  ' + element['type'] + '  </td>' +
+            												 '<td>  ' + " " + '  </td>' +
+            												 '<td>  <a href ="' + element['url'] + '">link</a>  </td></tr>');
           });
         }});
     });
@@ -26,8 +44,8 @@
     function getOptions(field) {
 		$('#search').empty();
 			currentData.forEach(function(element) {
-			  if(element.toString().indexOf(field.value) != -1){
-				$('#search').append('<option value ="' + element + '">');
+			  if(element['name'].indexOf(field.value) != -1){
+				$('#search').append('<option value ="' + element['name'].toString() + '">');
 			  }
          });
     }
@@ -38,6 +56,7 @@
 	    if (element.toString().indexOf(field.value) != -1) {
 	      $('#dataTable').append('<tr><td>' + element + '</td></tr>');
 	    }
+	  	//ifI(!field.value) getData();
 	  });
 	}    
 
@@ -54,11 +73,66 @@
     
     </script> 
   </head>
-  <body>
 
-  <h1>SkinCity Database</h1>
 
-  <table id="dataTable"></table>
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Skin City</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                    	<a class="page-scroll" href="http://www.chrisdesigns.net/skin/chris/demo.html">Demo</a>
+                    </li>
+					<li>
+						<a class="page-scroll" href="index.php">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Database</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Profile</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                    	<a class="page-scroll" href="login.php">Login</a>
+                    </li>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+<!-- Database Section -->
+    <section id="database">
+        <div class="container">
+            <div class="row">
+  	<div class="row text-center">
+  					<h1>Skin City Database</h1>
+
+  <table class="center" id="dataTable"></table>
   
   
   <h3>Filters:</h3>
