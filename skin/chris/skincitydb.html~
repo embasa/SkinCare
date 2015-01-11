@@ -31,7 +31,7 @@
     function getData() {
       $('#dataTable').empty();
       $('#dataTable').append('<th>name<th>brand<th>type<th>ingredients<th>url');
-      $.ajax({ url: 'skincitydb.php', success: function(data) {
+      $.ajax({ url: 'skincitydb.php', data: {include: $("#include").val(), exclude: $("#exclude").val()}, success: function(data) {
       		currentData = data;
           data.forEach(function(element) {
             $('#dataTable').append('<tr><td>  ' + element['name'] + '  </td>' +
@@ -54,11 +54,17 @@
          });
     }
     
+    
+    
 	function updateIncludeData(field) {
 	  $('#dataTable').empty();
 	  currentData.forEach(function(element) {
-	    if (element.toString().indexOf(field.value) != -1) {
-	      $('#dataTable').append('<tr><td>' + element + '</td></tr>');
+	    if (element[ingredients].indexOf(field.value) != -1) {
+	      $('#dataTable').append('<tr><td>  ' + element['name'] + '  </td>' +
+            												 '<td>  ' + element['brand'] + '  </td>' +
+            												 '<td>  ' + element['type'] + '  </td>' +
+            												 '<td>  ' + element['ingredients'] + '  </td>' +
+            												 '<td>  <a href ="' + element['url'] + '">link</a>  </td></tr>');
 	    }
 	  	if(!field.value) getData();
 	  });
@@ -136,21 +142,23 @@
   	<div class="row text-center">
   					<h1>Skin City Database</h1>
 
-  <table class="center" id="dataTable"></table>
+
   
   
   <h3>Filters:</h3>
   <p>Include:
-  <input list="products" id="include" oninput="updateIncludeData(this)">
+  <input list="products" id="include" oninput="getData()">
 
 <p>Exclude:
-  <input list="products" id="exclude" oninput="updateExcludeData(this)">
+  <input list="products" id="exclude" oninput="getData()">
   
  <p>Search:
   <input list="search" id="searchInput" oninput="getOptions(this)">
  		 <datalist id="search">
     <option value="product1">
   </datalist>   
+  
+    <table class="center" id="dataTable"></table>
   
   
  </body>

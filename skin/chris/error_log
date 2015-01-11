@@ -120,3 +120,96 @@
 [11-Jan-2015 03:47:14 UTC] PHP Notice:  Undefined offset: 4 in /home/cchen408/public_html/skin/chris/skincitydb.php on line 76
 [11-Jan-2015 03:47:14 UTC] PHP Notice:  Undefined offset: 4 in /home/cchen408/public_html/skin/chris/skincitydb.php on line 76
 [11-Jan-2015 03:47:14 UTC] PHP Notice:  Undefined offset: 4 in /home/cchen408/public_html/skin/chris/skincitydb.php on line 76
+[11-Jan-2015 04:48:48 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 04:48:48 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 04:48:48 UTC] PHP Warning:  SQLite3::prepare(): Unable to prepare statement: 1, misuse of aggregate: GROUP_CONCAT() in /home/cchen408/public_html/skin/chris/skincitydb.php on line 74
+[11-Jan-2015 04:48:48 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/chris/skincitydb.php on line 75
+[11-Jan-2015 04:49:24 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 04:49:24 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 04:49:24 UTC] PHP Warning:  SQLite3::prepare(): Unable to prepare statement: 1, misuse of aggregate: GROUP_CONCAT() in /home/cchen408/public_html/skin/chris/skincitydb.php on line 74
+[11-Jan-2015 04:49:24 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/chris/skincitydb.php on line 75
+[11-Jan-2015 04:49:24 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 04:49:24 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 04:49:24 UTC] PHP Warning:  SQLite3::prepare(): Unable to prepare statement: 1, misuse of aggregate: GROUP_CONCAT() in /home/cchen408/public_html/skin/chris/skincitydb.php on line 74
+[11-Jan-2015 04:49:24 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/chris/skincitydb.php on line 75
+[11-Jan-2015 04:52:54 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 04:52:54 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 04:52:54 UTC] PHP Warning:  SQLite3::prepare(): Unable to prepare statement: 1, misuse of aggregate: GROUP_CONCAT() in /home/cchen408/public_html/skin/chris/skincitydb.php on line 74
+[11-Jan-2015 04:52:54 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/chris/skincitydb.php on line 75
+[11-Jan-2015 04:52:54 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 04:52:54 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 04:52:54 UTC] PHP Warning:  SQLite3::prepare(): Unable to prepare statement: 1, misuse of aggregate: GROUP_CONCAT() in /home/cchen408/public_html/skin/chris/skincitydb.php on line 74
+[11-Jan-2015 04:52:54 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/chris/skincitydb.php on line 75
+[11-Jan-2015 04:53:00 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 04:53:00 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 04:53:00 UTC] PHP Warning:  SQLite3::prepare(): Unable to prepare statement: 1, near &quot;WHERE&quot;: syntax error in /home/cchen408/public_html/skin/chris/skincitydb.php on line 74
+[11-Jan-2015 04:53:00 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/chris/skincitydb.php on line 75
+[11-Jan-2015 04:53:01 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 04:53:01 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 04:53:01 UTC] PHP Warning:  SQLite3::prepare(): Unable to prepare statement: 1, near &quot;WHERE&quot;: syntax error in /home/cchen408/public_html/skin/chris/skincitydb.php on line 74
+[11-Jan-2015 04:53:01 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/chris/skincitydb.php on line 75
+[11-Jan-2015 04:53:02 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 04:53:02 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 04:53:02 UTC] PHP Warning:  SQLite3::prepare(): Unable to prepare statement: 1, near &quot;WHERE&quot;: syntax error in /home/cchen408/public_html/skin/chris/skincitydb.php on line 74
+[11-Jan-2015 04:53:02 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/chris/skincitydb.php on line 75
+[11-Jan-2015 04:53:02 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 04:53:02 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 04:53:02 UTC] PHP Warning:  SQLite3::prepare(): Unable to prepare statement: 1, near &quot;WHERE&quot;: syntax error in /home/cchen408/public_html/skin/chris/skincitydb.php on line 74
+[11-Jan-2015 04:53:02 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/chris/skincitydb.php on line 75
+[11-Jan-2015 04:53:02 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 04:53:02 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 04:53:02 UTC] PHP Warning:  SQLite3::prepare(): Unable to prepare statement: 1, near &quot;WHERE&quot;: syntax error in /home/cchen408/public_html/skin/chris/skincitydb.php on line 74
+[11-Jan-2015 04:53:02 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/chris/skincitydb.php on line 75
+[11-Jan-2015 04:54:11 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 04:54:11 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 04:54:11 UTC] PHP Warning:  SQLite3::prepare(): Unable to prepare statement: 1, misuse of aggregate: GROUP_CONCAT() in /home/cchen408/public_html/skin/chris/skincitydb.php on line 74
+[11-Jan-2015 04:54:11 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/chris/skincitydb.php on line 75
+[11-Jan-2015 04:54:38 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 04:54:38 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 04:54:38 UTC] PHP Warning:  SQLite3::prepare(): Unable to prepare statement: 1, misuse of aggregate: GROUP_CONCAT() in /home/cchen408/public_html/skin/chris/skincitydb.php on line 74
+[11-Jan-2015 04:54:38 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/chris/skincitydb.php on line 75
+[11-Jan-2015 04:57:40 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 04:57:40 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 04:58:05 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 05:04:11 UTC] PHP Fatal error:  Call to undefined method SQLite3Result::numRows() in /home/cchen408/public_html/skin/chris/skincitydb.php on line 79
+[11-Jan-2015 05:04:19 UTC] PHP Notice:  Undefined property: SQLite3Result::$numRows in /home/cchen408/public_html/skin/chris/skincitydb.php on line 79
+[11-Jan-2015 05:08:21 UTC] PHP Warning:  SQLite3::prepare(): Unable to prepare statement: 1, no such function: CONCAT in /home/cchen408/public_html/skin/chris/skincitydb.php on line 74
+[11-Jan-2015 05:08:21 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/chris/skincitydb.php on line 75
+[11-Jan-2015 05:08:39 UTC] PHP Warning:  SQLite3::prepare(): Unable to prepare statement: 1, no such function: concat in /home/cchen408/public_html/skin/chris/skincitydb.php on line 74
+[11-Jan-2015 05:08:39 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/chris/skincitydb.php on line 75
+[11-Jan-2015 05:09:39 UTC] PHP Warning:  SQLite3::prepare(): Unable to prepare statement: 1, near &quot;)&quot;: syntax error in /home/cchen408/public_html/skin/chris/skincitydb.php on line 74
+[11-Jan-2015 05:09:39 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/chris/skincitydb.php on line 75
+[11-Jan-2015 05:09:40 UTC] PHP Warning:  SQLite3::prepare(): Unable to prepare statement: 1, near &quot;)&quot;: syntax error in /home/cchen408/public_html/skin/chris/skincitydb.php on line 74
+[11-Jan-2015 05:09:40 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/chris/skincitydb.php on line 75
+[11-Jan-2015 05:09:41 UTC] PHP Warning:  SQLite3::prepare(): Unable to prepare statement: 1, near &quot;)&quot;: syntax error in /home/cchen408/public_html/skin/chris/skincitydb.php on line 74
+[11-Jan-2015 05:09:41 UTC] PHP Fatal error:  Call to a member function bindValue() on a non-object in /home/cchen408/public_html/skin/chris/skincitydb.php on line 75
+[11-Jan-2015 05:10:48 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 05:10:48 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 05:10:48 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 05:10:48 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 05:20:03 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 05:20:03 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 05:20:03 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 05:20:03 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 05:22:48 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 05:22:48 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 05:23:06 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 05:23:06 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 05:23:06 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 05:23:06 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 05:24:14 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 05:24:14 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 05:24:35 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 05:24:35 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 05:24:35 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 05:24:35 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 05:26:41 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 05:26:41 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 05:26:41 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 05:26:41 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 05:27:07 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 05:27:07 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 05:27:11 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 05:27:11 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7
+[11-Jan-2015 05:28:11 UTC] PHP Notice:  Undefined index: include in /home/cchen408/public_html/skin/chris/skincitydb.php on line 6
+[11-Jan-2015 05:28:11 UTC] PHP Notice:  Undefined index: exclude in /home/cchen408/public_html/skin/chris/skincitydb.php on line 7

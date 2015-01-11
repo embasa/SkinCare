@@ -3,8 +3,8 @@ error_reporting(E_ALL);
 ini_set("display_errors", 1);
 header("Content-Type: application/json");
 $data = array();
-//$type = $_GET['type'];
-
+$includeFilter = $_REQUEST['include'];
+$excludeFilter = $_REQUEST['exclude'];
 /*
 for ($i=0; $i<100; $i++) {
   $num = rand();
@@ -37,7 +37,7 @@ class MyDB extends SQLite3
  {
       function __construct()
       {
-         $this->open('test.db');
+         $this->open('skin.db');
       }
 }
 
@@ -46,7 +46,7 @@ $db = new MyDB();
 if(!$db){
       echo $db->lastErrorMsg();
    } else {
-      echo "Opened database successfully\n";
+      //echo "Opened database successfully\n";
    }
    
 /*   
@@ -61,18 +61,22 @@ EOF;
    }
 */
 
-
 $sql =<<<EOF
 	SELECT Product.Name, Product.Brand, Product.Type, GROUP_CONCAT(Ingredients.Name, ", ") AS AllIngredients, Product.URL
 	FROM Product
         LEFT JOIN ProductIngredients ON Product.ProductID = ProductIngredients.ProductID
         JOIN Ingredients ON ProductIngredients.IngredientsID = Ingredients.IngredientsID
-	GROUP BY Product.ProductID, Product.Name;
+	GROUP BY Product.Name, Product.Brand, Product.Type, Product.URL
+	HAVING AllIngredients LIKE '%' || :include || '%' AND AllIngredients NOT LIKE '%' || :exclude || '%';
 EOF;
    //echo "Operation done successfully\n";
-   
-$ret = $db->query($sql);
-while($row = $ret->fetchArray(SQLITE3_ASSOC)){
+ 
+$statement = $db->prepare($sql);
+$statement->bindValue(':include', $includeFilter, SQLITE3_TEXT);
+$statement->bindValue(':exclude', $excludeFilter, SQLITE3_TEXT);
+$results = $statement->execute();
+
+while($row = $results->fetchArray(SQLITE3_ASSOC)) {
 	$p = new Product($row['Name'], $row['Brand'], $row['Type'], $row['AllIngredients'], $row['URL']);
 	array_push($data, $p);
 }   
